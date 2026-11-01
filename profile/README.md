@@ -1,12 +1,11 @@
 <p align="center">
-  <img src="https://hyloai.github.io/assets/logo.svg" width="72" alt="Hylo">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+    <img src="assets/banner-light.svg" width="100%" alt="Hylo: the stack for physical AI. From real-time running to evolution, every layer on one execution kernel">
+  </picture>
 </p>
 
-<h1 align="center">The Stack for Physical AI</h1>
-
-<p align="center">
-  <b>让具身智能运转起来</b>
-</p>
+<h3 align="center">The Stack for Physical AI · 让具身智能运转起来</h3>
 
 <p align="center">
   <a href="https://hyloai.github.io/">Website · 官网</a> ·
@@ -21,7 +20,21 @@ execution kernel.
 
 从实时运行到认知、评测、进化，**Hylo** 把具身智能的每一层建在同一个执行内核上。
 
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/loop-dark.svg">
+    <img src="assets/loop-light.svg" width="100%" alt="The Hylo loop: run, measure, improve through a gate, deploy; episodes on the robot come back as runs">
+  </picture>
+</p>
+
 ### The Hylo stack · Hylo 技术栈
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg">
+    <img src="assets/stack-light.svg" width="100%" alt="The six layers of the Hylo stack and the repositories that implement them">
+  </picture>
+</p>
 
 | Layer · 层 | | Repository · 仓库 |
 |---|---|---|
