@@ -5,8 +5,8 @@
 <h1 align="center">Hylo AI · 原觉智能</h1>
 
 <p align="center">
-  <b>Robot policies that improve behind a gate.</b><br>
-  让机器人策略在统计门控下持续变好。
+  <b>Robots that keep getting better as they work.</b><br>
+  让机器人在使用中持续变好。
 </p>
 
 <p align="center">
@@ -17,14 +17,12 @@
 
 ---
 
-**Hylo** evaluates robot policies, learns from what they did, and promotes a change only when a paired statistical
-test on episodes it never trained on says it is better. The approved version then runs on the robot through the same
-episode loop it was measured with. One set of contracts from simulation (MuJoCo, LIBERO) to hardware (LeRobot robots),
-for any policy (behaviour cloning, flow matching, SmolVLA, pi0).
+**Hylo** turns a robot's own work into its next improvement. Every episode is recorded in full. Changes are learned
+from those records, checked against the current version on episodes they have never seen, and only then sent to the
+robot. The benchmark and the robot run through the same episode loop, with the same timing.
 
-**Hylo** 评测机器人策略，从它们的执行轨迹中学习；只有当一项改动在从未参与训练的回合上通过配对统计检验时，才会被采纳。
-通过审批的版本随后在机器人上运行，用的正是度量它时的那套回合循环。从仿真（MuJoCo、LIBERO）到硬件（LeRobot 机器人），
-适用于任何策略（行为克隆、流匹配、SmolVLA、pi0），用同一套契约。
+**Hylo** 把机器人自己的工作，变成它下一次改进的依据。每个回合都被完整记录下来；改动从这些记录中学出来，先在它从没见过的回合上
+和当前版本对比，通过了才交给机器人。基准测试和真机跑的是同一套回合循环，时序也一样。
 
 ### Repositories · 仓库
 
